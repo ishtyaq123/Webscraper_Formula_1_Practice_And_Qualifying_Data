@@ -11,7 +11,7 @@ sys.path.insert(0, './AWS_rds_uploader')
 from AWS_rds_uploader import RDS_engine
 from Scraper import F1_drivers_and_times_data
 
-print('This scraper can collect and store practice and2 qualifying data from the 2006 Formula 1 season and onwards')
+print('This scraper can collect and store practice and qualifying data from the 2006 Formula 1 season and onwards')
 a = int(input('What season would you like to start scraping data from: '))
 b = int(input('What is the final season you would like to stop scraping data on: '))
 b = b+1
